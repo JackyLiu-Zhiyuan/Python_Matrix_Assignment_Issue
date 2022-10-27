@@ -1,0 +1,24 @@
+input = "ABCDEFGHI"
+output = [['a','b','c'],['d','e','f'],['g','h','i']]
+matrix = [[0]*3]*3
+print(matrix)
+# matrix = [['a','b','c'],['d','e','f'],['g','h','i']]
+index = 0
+for i in range(3):
+    for j in range(3):
+        matrix[i][j]=input[index]
+        index += 1
+
+
+print(matrix)
+
+input = "ABCDEFGHI"
+output = [['a','b','c'],['d','e','f'],['g','h','i']]
+matrix  = [[0 for i in range(3)] for j in range(3)]
+print(matrix)
+index = 0
+for i in range(3):
+    for j in range(3):
+        matrix[i][j] = input[index]
+        index+=1
+print(matrix)
